@@ -1,3 +1,6 @@
+<p align="center"><a href="https://github.com/memset0/memset0/blob/master/pages/tags.md"><img src="https://raw.githubusercontent.com/1donggu/1donggu/main/1.png" height="150"></a></p>
+
+
 ![蝉時雨](https://github.com/o0v0/o0v0.github.io/blob/master/zero.png?raw=true)
 
 zero 是一款动漫风格博客主题，基于 Vue 开发的 SPA 单页面博客应用程序，使用开源的 Github Api 服务  Github Issues 进行写作，借助 Github Api 获取内容，通过 Github Pages 部署在线访问。博客评论系统采用开源项目 Gitalk。主题基于 Github 全家桶，脱离服务器与数据库，关注内容本身，操作简单，免费食用。
