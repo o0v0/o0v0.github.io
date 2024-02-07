@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>菇 - ☭ </title><link>https://o0v0.github.io</link><description>童话是一种生活态度，仅此而已。</description><copyright>菇 - ☭ </copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img2.imgtp.com/2024/02/07/cIzlxeW8.png</url><title>avatar</title><link>https://o0v0.github.io</link></image><lastBuildDate>Wed, 07 Feb 2024 13:34:28 +0000</lastBuildDate><managingEditor>菇 - ☭ </managingEditor><ttl>60</ttl><webMaster>菇 - ☭ </webMaster><item><title>科学上网V2ray&amp;X-ray</title><link>https://o0v0.github.io/post/ke-xue-shang-wang-V2ray%26X-ray.html</link><description> **支持多协议多用户的 xray 面板**&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>菇 - ☭ </title><link>https://o0v0.github.io</link><description>童话是一种生活态度，仅此而已。</description><copyright>菇 - ☭ </copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img2.imgtp.com/2024/02/07/cIzlxeW8.png</url><title>avatar</title><link>https://o0v0.github.io</link></image><lastBuildDate>Wed, 07 Feb 2024 13:45:30 +0000</lastBuildDate><managingEditor>菇 - ☭ </managingEditor><ttl>60</ttl><webMaster>菇 - ☭ </webMaster><item><title>科学上网V2ray&amp;X-ray</title><link>https://o0v0.github.io/post/ke-xue-shang-wang-V2ray%26X-ray.html</link><description> **支持多协议多用户的 xray 面板**&#13;
 &#13;
 适配Alpine linux 使用F大编译的x-ui&#13;
 支持的协议：vmess、vless、trojan、shadowsocks、dokodemo-door、socks、http&#13;
@@ -7,4 +7,20 @@
 ovz，lxc虚拟化的vps，在纯净系统首次安装后内存占用约为27m左右，重启后内存占用约为20m&#13;
 &#13;
 ---&#13;
-VPN指的是代理服务器，也就是网民俗称的“翻墙软件”，而它要翻的那个墙就是“防火墙”。</description><guid isPermaLink="true">https://o0v0.github.io/post/ke-xue-shang-wang-V2ray%26X-ray.html</guid><pubDate>Wed, 07 Feb 2024 13:20:09 +0000</pubDate></item><item><title>我的介绍(｡･∀･)ﾉﾞ嗨</title><link>https://o0v0.github.io/post/wo-de-jie-shao-%28%EF%BD%A1%EF%BD%A5%E2%88%80%EF%BD%A5%29%EF%BE%89%EF%BE%9E-hai.html</link><description>暂时不知道说什么。</description><guid isPermaLink="true">https://o0v0.github.io/post/wo-de-jie-shao-%28%EF%BD%A1%EF%BD%A5%E2%88%80%EF%BD%A5%29%EF%BE%89%EF%BE%9E-hai.html</guid><pubDate>Wed, 07 Feb 2024 12:20:34 +0000</pubDate></item></channel></rss>
+VPN指的是代理服务器，也就是网民俗称的“翻墙软件”，而它要翻的那个墙就是“防火墙”。</description><guid isPermaLink="true">https://o0v0.github.io/post/ke-xue-shang-wang-V2ray%26X-ray.html</guid><pubDate>Wed, 07 Feb 2024 13:20:09 +0000</pubDate></item><item><title>我的介绍(｡･∀･)ﾉﾞ嗨</title><link>https://o0v0.github.io/post/wo-de-jie-shao-%28%EF%BD%A1%EF%BD%A5%E2%88%80%EF%BD%A5%29%EF%BE%89%EF%BE%9E-hai.html</link><description>暂时不知道说什么&#13;
+&#13;
+---&#13;
+友链申请要求：&#13;
+✅ 网站能够正常访问&#13;
+✅ 网站类型为个人博客&#13;
+✅ 网站需要包含本站友链&#13;
+✅ 网站需要开通一年以上，且原创文章不少于 30 篇&#13;
+❌ 不接受商业性或包含侵入性广告的站点&#13;
+❌ 不接受违反中华人民共和国法律法规的站点&#13;
+&#13;
+如果符合如上条件，可在本页面评论区留言您的友链信息&#13;
+&#13;
+- name: Meekdai&#13;
+- url: https://meekdai.com&#13;
+- avatar: https://meekdai.com/avatar.svg&#13;
+- desc: 童话是一种生活态度，仅此而已。</description><guid isPermaLink="true">https://o0v0.github.io/post/wo-de-jie-shao-%28%EF%BD%A1%EF%BD%A5%E2%88%80%EF%BD%A5%29%EF%BE%89%EF%BE%9E-hai.html</guid><pubDate>Wed, 07 Feb 2024 12:20:34 +0000</pubDate></item></channel></rss>
