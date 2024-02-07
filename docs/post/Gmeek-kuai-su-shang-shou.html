@@ -80,7 +80,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 按照安装步骤成功搭建好后，就可以阅读下面的内容修改配置文件啦。<br>
 注意修改配置文件后一定要手动全局生成一次，不然会报错。</p>
 <p>config.json 文件就是配置文件，在创建的仓库内可以找到，默认填写的是我的信息，对应修改为自己的即可。</p>
-<p>{<br>
+<h2>---C++<br>
+{<br>
 "title":"Meekdai",<br>
 "displayTitle":"eekdai",<br>
 "subTitle":"童话是一种生活态度，仅此而已。",<br>
@@ -89,9 +90,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 "faviconUrl":"<a href="http://meekdai.com/favicon.ico" rel="nofollow">http://meekdai.com/favicon.ico</a>",<br>
 "singlePage":[],<br>
 "GMEEK_VERSION":"last"<br>
-}<br>
-以上是必须的字段，下面是可以自定义字段的描述，可以选择加入到config.json中。</p>
-<p>"email":"<a href="mailto:meekdai@163.com">meekdai@163.com</a>",<br>
+}</h2>
+<p>以上是必须的字段，下面是可以自定义字段的描述，可以选择加入到config.json中。</p>
+<hr>
+<h2>"email":"<a href="mailto:meekdai@163.com">meekdai@163.com</a>",<br>
 "startSite":"02/16/2015",<br>
 "filingNum":"浙ICP备20023628号",<br>
 "onePageListNum":15,<br>
@@ -102,8 +104,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 "nightTheme":"dark_colorblind",<br>
 "urlMode":"pinyin",<br>
 "style":"",<br>
-"script":"",<br>
-另有不清楚的也可以参考 <a href="https://github.com/Meekdai/meekdai.github.io/blob/main/config.json">https://github.com/Meekdai/meekdai.github.io/blob/main/config.json</a></p>
+"script":"",</h2>
+<p>另有不清楚的也可以参考 <a href="https://github.com/Meekdai/meekdai.github.io/blob/main/config.json">https://github.com/Meekdai/meekdai.github.io/blob/main/config.json</a></p>
 <p>常见问题<br>
 搭建不成功<br>
 多半是没有按照安装步骤来，其实搭建就这2步，不要自己乱点乱设置，就不会有问题。<br>
@@ -115,21 +117,24 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 建议通过Actions-&gt;build Gmeek-&gt;Run workflow-&gt;里面的按钮全局重新生成一次<br>
 案例一：<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1835970989" data-permission-text="Title is private" data-url="https://github.com/Meekdai/Gmeek/issues/1" data-hovercard-type="issue" data-hovercard-url="/Meekdai/Gmeek/issues/1/hovercard" href="https://github.com/Meekdai/Gmeek/issues/1">Meekdai/Gmeek#1</a><br>
 案例二：<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2019961589" data-permission-text="Title is private" data-url="https://github.com/Meekdai/Gmeek/issues/10" data-hovercard-type="issue" data-hovercard-url="/Meekdai/Gmeek/issues/10/hovercard" href="https://github.com/Meekdai/Gmeek/issues/10">Meekdai/Gmeek#10</a></p>
-<p>如果要导入以前的文章，如何设置发布时间呢？<br>
-如需修改发布时间，可以在文章最后一行添加如下代码。里面的时间是采用时间戳的形式，可以用如下<a href="https://tool.lu/timestamp" rel="nofollow">网站</a>转换。</p>
+<h2>如果要导入以前的文章，如何设置发布时间呢？<br>
+如需修改发布时间，可以在文章最后一行添加如下代码。里面的时间是采用时间戳的形式，可以用如下<a href="https://tool.lu/timestamp" rel="nofollow">网站</a>转换。</h2>
 
-<p>自定义单篇文章页面的style和script</p>
+<hr>
+<h2>自定义单篇文章页面的style和script</h2>
 
 
-<p>可同时一起添加多种自定义参数：</p>
+<hr>
+<h2>可同时一起添加多种自定义参数：</h2>
 
-<p>添加全局文章页面的style和script<br>
-在config.json文件中添加</p>
-<p>"style":"&lt;style&gt;#postBody{font-size:20px}&lt;/style&gt;",<br>
-"script":"&lt;script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'&gt;&lt;/script&gt;",<br>
-置顶博客文章,只需要Pin issue即可。</p>
-<p>如果在评论里面登录后评论报错，可直接按照提示安装utteranc app即可</p>
-<p>Error: utterances is not installed on xxx/xxx.github.io. If you own this repo, install the app. Read more about this change in the PR.</p>
+<hr>
+<h2>添加全局文章页面的style和script<br>
+在config.json文件中添加</h2>
+<h2>"style":"&lt;style&gt;#postBody{font-size:20px}&lt;/style&gt;",<br>
+"script":"&lt;script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'&gt;&lt;/script&gt;",</h2>
+<p>置顶博客文章,只需要Pin issue即可。</p>
+<h2>如果在评论里面登录后评论报错，可直接按照提示安装utteranc app即可</h2>
+<h2>Error: utterances is not installed on xxx/xxx.github.io. If you own this repo, install the app. Read more about this change in the PR.</h2>
 <p>如何魔改<br>
 如果有朋友想修改博客的主题，或者添加一些东西，这个框架是支持魔改的。所有的UI都在<a href="https://github.com/Meekdai/Gmeek/tree/main/templates">templates</a>文件中，可进行修改，如果合适，我会合并到主线，通过配置文件让用户选择哪个主题。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
