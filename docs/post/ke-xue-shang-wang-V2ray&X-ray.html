@@ -71,20 +71,36 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><h3>支持多协议多用户的 xray 面板</h3>
-<pre class="notranslate"><code class="notranslate">适配Alpine linux 使用F大编译的x-ui，支持的协议：vmess、vless、trojan、shadowsocks、dokodemo-door、socks、http
-默认端口可使用x-ui命令更换
-ovz，lxc虚拟化的vps，在纯净系统首次安装后内存占用约为27m左右，重启后内存占用约为20m
-</code></pre>
+<p>适配Alpine linux 使用F大编译的x-ui，支持的协议：vmess、vless、trojan、shadowsocks、dokodemo-door、socks、http<br>
+默认端口可使用x-ui命令更换<br>
+ovz，lxc虚拟化的vps，在纯净系统首次安装后内存占用约为27m左右，重启后内存占用约为20m</p>
 <h3>功能介绍</h3>
-<pre class="notranslate"><code class="notranslate">系统状态监控
-支持多用户多协议，网页可视化操作
-支持配置更多传输配置
-流量统计，限制流量，限制到期时间
-可自定义 xray 配置模板
-支持 https 访问面板（自备域名 + ssl 证书）
-支持一键SSL证书申请且自动续签
-更多高级配置项，详见面板
-</code></pre>
+<table role="table">
+<thead>
+<tr>
+<th>Header</th>
+<th>Header</th>
+<th>Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>系统状态监控</td>
+<td>支持配置更多传输配置</td>
+<td>可自定义 xray 配置模板</td>
+</tr>
+<tr>
+<td>支持多用户多协议，网页可视化操作</td>
+<td>支持 https 访问面板（自备域名 + ssl 证书）</td>
+<td>更多高级配置项，详见面板</td>
+</tr>
+<tr>
+<td>流量统计，限制流量，限制到期时间</td>
+<td>支持一键SSL证书申请且自动续签</td>
+<td>Cell</td>
+</tr>
+</tbody>
+</table>
 <h3>安装工具</h3>
 <pre class="notranslate"><code class="notranslate">1、[安装finalshell](https://www.hostbuf.com/t/988.html)
 2、安装X-UI面板
@@ -113,8 +129,8 @@ curl https://get.acme.sh | sh
 ~/.acme.sh/acme.sh --register-account -m example@xx.com（替换成自己的邮箱）
 </code></pre>
 <p>3、开始申请证书</p>
-<pre class="notranslate"><code class="notranslate">~/.acme.sh/acme.sh --issue -d www.naiyoubba.xyz --standalone   
-#红色部分替换成自己解析好的域名，注意前后要有空格
+<pre class="notranslate"><code class="notranslate">~/.acme.sh/acme.sh --issue -d 域名 --standalone   
+#替换成自己解析好的域名，注意前后要有空格
 </code></pre>
 <p>4、安装证书</p>
 <pre class="notranslate"><code class="notranslate">~/.acme.sh/acme.sh --installcert -d 域名 --key-file /root/private.key --fullchain-file /root/cert.crt    
