@@ -70,75 +70,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p><a href="https://github.com/Meekdai/Gmeek">Gmeek</a> 一个博客框架，超轻量级个人博客模板，完全基于Github Pages 、 Github Issues 和 Github Actions，可以称作All in Github。不需要本地部署，从搭建到写作，只需要18秒，2步搭建好博客，第3步就是写作。</p>
-<p>安装<br>
-安装及其简单，但是也要认真看下面的步骤，一步一步来。</p>
-<p>点击<a href="https://github.com/new?template_name=Gmeek-template&amp;template_owner=Meekdai">通过模板创建仓库</a>，建议仓库名称为XXX.github.io，其中XXX为你的github用户名。</p>
-<p>在你创建好的仓库的设置Settings中Pages-&gt;Build and deployment-&gt;Source下面选择Github Actions。</p>
-<p>打开一篇issue，开始写作，并且添加一个标签（只添加一个），保存issue后会自动创建博客内容，片刻后可通过<a href="https://xxx.github.io/" rel="nofollow">https://xxx.github.io/</a> 访问</p>
-<p>配置文件<br>
-按照安装步骤成功搭建好后，就可以阅读下面的内容修改配置文件啦。<br>
-注意修改配置文件后一定要手动全局生成一次，不然会报错。</p>
-<p>config.json 文件就是配置文件，在创建的仓库内可以找到，默认填写的是我的信息，对应修改为自己的即可。</p>
-<pre class="notranslate"><code class="notranslate">{
-    "title":"Meekdai",
-    "displayTitle":"eekdai",
-    "subTitle":"童话是一种生活态度，仅此而已。",
-    "homeUrl":"http://blog.meekdai.com",
-    "avatarUrl":"http://meekdai.com/avatar.jpg",
-    "faviconUrl":"http://meekdai.com/favicon.ico",
-    "singlePage":[],
-    "GMEEK_VERSION":"last"
-}
-</code></pre>
-<p>以上是必须的字段，下面是可以自定义字段的描述，可以选择加入到config.json中。</p>
-<pre class="notranslate"><code class="notranslate">"email":"meekdai@163.com",
-"startSite":"02/16/2015",
-"filingNum":"浙ICP备20023628号",
-"onePageListNum":15,
-"commentLabelColor":"#006b75",
-"yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
-"i18n":"CN",
-"dayTheme":"light",
-"nightTheme":"dark_colorblind",
-"urlMode":"pinyin",
-"style":"",
-"script":"",
-</code></pre>
-<p>另有不清楚的也可以参考 <a href="https://github.com/Meekdai/meekdai.github.io/blob/main/config.json">https://github.com/Meekdai/meekdai.github.io/blob/main/config.json</a></p>
-<p>常见问题<br>
-搭建不成功<br>
-多半是没有按照安装步骤来，其实搭建就这2步，不要自己乱点乱设置，就不会有问题。<br>
-案例一：<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2022066285" data-permission-text="Title is private" data-url="https://github.com/Meekdai/Gmeek/issues/14" data-hovercard-type="issue" data-hovercard-url="/Meekdai/Gmeek/issues/14/hovercard" href="https://github.com/Meekdai/Gmeek/issues/14">Meekdai/Gmeek#14</a><br>
-案例二：<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2033718589" data-permission-text="Title is private" data-url="https://github.com/Meekdai/Gmeek/issues/18" data-hovercard-type="issue" data-hovercard-url="/Meekdai/Gmeek/issues/18/hovercard" href="https://github.com/Meekdai/Gmeek/issues/18">Meekdai/Gmeek#18</a><br>
-案例二：<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2041201147" data-permission-text="Title is private" data-url="https://github.com/Meekdai/Gmeek/issues/20" data-hovercard-type="issue" data-hovercard-url="/Meekdai/Gmeek/issues/20/hovercard" href="https://github.com/Meekdai/Gmeek/issues/20">Meekdai/Gmeek#20</a></p>
-<p>Actions执行失败<br>
-修改了config.json配置文件后，需要全局生成。另外label标签没有打，或者多打也会出现这个问题。<br>
-建议通过Actions-&gt;build Gmeek-&gt;Run workflow-&gt;里面的按钮全局重新生成一次<br>
-案例一：<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1835970989" data-permission-text="Title is private" data-url="https://github.com/Meekdai/Gmeek/issues/1" data-hovercard-type="issue" data-hovercard-url="/Meekdai/Gmeek/issues/1/hovercard" href="https://github.com/Meekdai/Gmeek/issues/1">Meekdai/Gmeek#1</a><br>
-案例二：<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2019961589" data-permission-text="Title is private" data-url="https://github.com/Meekdai/Gmeek/issues/10" data-hovercard-type="issue" data-hovercard-url="/Meekdai/Gmeek/issues/10/hovercard" href="https://github.com/Meekdai/Gmeek/issues/10">Meekdai/Gmeek#10</a></p>
-<p>如果要导入以前的文章，如何设置发布时间呢？<br>
-如需修改发布时间，可以在文章最后一行添加如下代码。里面的时间是采用时间戳的形式，可以用如下<a href="https://tool.lu/timestamp" rel="nofollow">网站</a>转换。</p>
-<pre class="notranslate"><code class="notranslate">&lt;!-- ##{"timestamp":1490764800}## --&gt;
-</code></pre>
-<p>自定义单篇文章页面的style和script</p>
-<pre class="notranslate"><code class="notranslate">&lt;!-- ##{"style":"&lt;style&gt;#postBody{font-size:20px}&lt;/style&gt;"}## --&gt;
-&lt;!-- ##{"script":"&lt;script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'&gt;&lt;/script&gt;"}## --&gt;
-</code></pre>
-<p>可同时一起添加多种自定义参数：</p>
-<pre class="notranslate"><code class="notranslate">&lt;!-- ##{"script":"&lt;script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'&gt;&lt;/script&gt;","style":"&lt;style&gt;#postBody{font-size:20px}&lt;/style&gt;","timestamp":1490764800}## --&gt;
-</code></pre>
-<p>添加全局文章页面的style和script<br>
-在config.json文件中添加</p>
-<pre class="notranslate"><code class="notranslate">"style":"&lt;style&gt;#postBody{font-size:20px}&lt;/style&gt;",
-"script":"&lt;script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'&gt;&lt;/script&gt;",
-</code></pre>
-<p>置顶博客文章,只需要Pin issue即可。</p>
-<p>如果在评论里面登录后评论报错，可直接按照提示安装utteranc app即可</p>
-<pre class="notranslate"><code class="notranslate">Error: utterances is not installed on xxx/xxx.github.io. If you own this repo, install the app. Read more about this change in the PR.
-</code></pre>
-<p>如何魔改<br>
-如果有朋友想修改博客的主题，或者添加一些东西，这个框架是支持魔改的。所有的UI都在<a href="https://github.com/Meekdai/Gmeek/tree/main/templates">templates</a>文件中，可进行修改，如果合适，我会合并到主线，通过配置文件让用户选择哪个主题。</p></div>
+<div class="markdown-body" id="postBody"><p>暂时不知道说什么</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
