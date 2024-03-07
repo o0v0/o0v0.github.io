@@ -5,6 +5,15 @@
     "homeUrl":"https://o0v0.github.io",
     "avatarUrl":"https://img2.imgtp.com/2024/02/07/cIzlxeW8.png",
     "faviconUrl":"https://img2.imgtp.com/2024/02/07/cIzlxeW8.png",
-    "singlePage":[],
-    "GMEEK_VERSION":"last"
+    "singlePage":["link","about"],
+    "email":"3535516703@qq.com",
+    "startSite":"02/16/2015",
+    "filingNum":"",
+    "onePageListNum":15,
+    "commentLabelColor":"#006b75",
+    "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
+    "i18n":"CN",
+    "nightTheme":"dark_colorblind",
+    "bottomText":"❤️ 转载文章请注明出处，谢谢！❤️",
+    "GMEEK_VERSION":"main"
 }
