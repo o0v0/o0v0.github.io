@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html 
+	lang="zh-cn">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+<link rel="stylesheet" href="/css/layout.css">
+
+		
+		<title> 2024年科学脚本汇总 -  时 - 雨</title>
+		<!-- <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" /> -->
+		<!-- <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> -->
+		
+<link rel="stylesheet" href="/lib/mdui/mdui.min.css">
+
+		
+<script src="/lib/mdui/mdui.min.js"></script>
+
+		<!-- lazyload -->
+		
+<script src="/lib/lazysizes.js"></script>
+
+		<!-- smooth-scrolling -->
+		
+<script src="/lib/smooth-scrolling.js"></script>
+
+		<!-- highlight -->
+		
+<link rel="stylesheet" href="/lib/highlight/atom-one-dark.min.css">
+
+		
+<script src="/lib/highlight/highlight.min.js"></script>
+
+		<!-- 预置 kiraicon -->
+		
+<link rel="stylesheet" href="/lib/iconfont/iconfont.css">
+
+		
+		<link
+			rel="shortcut icon"
+			href="https://pic2.ziyuan.wang/user/0w0/2024/05/illust_top01_ea5649869e539.png"
+			type="image/png"
+		/>
+		
+<link rel="stylesheet" href="/deps/css/APlayer.min.css">
+
+		
+		
+<script src="/deps/js/APlayer.min.js"></script>
+<script src="/deps/js/Meting.min.js"></script>
+
+	<meta name="generator" content="Hexo 6.3.0"></head>
+
+	<body>
+		<div
+			class="kira-background"
+			style="background-image: url('https://pic2.ziyuan.wang/user/0w0/2024/05/g_2ccb3183877f1.png')"
+		></div>
+		<div class="kira-header">
+    <a
+        class="kira-drawer-button mdui-ripple"
+        title="导航栏"
+        onclick="document.querySelector('.kira-sidebar-modal').classList.add('show');document.querySelector('.kira-sidebar#sidebar').classList.add('show');"
+    >
+        <i class="kirafont icon-menu"></i>
+    </a>
+    <a href="/" title="时 - 雨">
+        <img
+			src="https://pic2.ziyuan.wang/user/0w0/2024/07/ert_e3be9af900939.png"
+			alt="时 - 雨"
+		/>
+    </a>
+</div>
+		<div class="kira-body">
+			<div class="kira-sidebar" id="sidebar">
+	<div class="kira-avatar mdui-ripple">
+		<a target="_blank" rel="noopener" href="https://pic2.ziyuan.wang/user/0w0/2024/07/ert_e3be9af900939.png" title="时 - 雨">
+			<img
+				src="https://pic2.ziyuan.wang/user/0w0/2024/07/ert_e3be9af900939.png"
+				alt="时 - 雨"
+			/>
+		</a>
+	</div>
+	<div class="kira-count">
+		<div><span>文章</span>4</div>
+		<div><span>标签</span>4</div>
+		<div><span>分类</span>1</div>
+	</div>
+	<div class="kira-list">
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/"
+			title="回到首页"
+		>
+			<i
+				class="kirafont
+					
+						icon-home
+					"
+			></i>
+			<div class="kira-list-item-content">
+				回到首页
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/archive.html"
+			title="文章归档"
+		>
+			<i
+				class="kirafont
+					
+						icon-container
+					"
+			></i>
+			<div class="kira-list-item-content">
+				文章归档
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/about.html"
+			title="关于本人"
+		>
+			<i
+				class="kirafont
+					
+						icon-user
+					"
+			></i>
+			<div class="kira-list-item-content">
+				关于本人
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/friends.html"
+			title="我的朋友"
+		>
+			<i
+				class="kirafont
+					
+						icon-team
+					"
+			></i>
+			<div class="kira-list-item-content">
+				我的朋友
+			</div>
+		</a>
+		
+	</div>
+	<aside id="kira-sidebar">
+		
+			<div class="kira-widget-wrap">
+	<div class="kira-widget kira-social">
+		
+			<a
+				class="mdui-ripple"
+				href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=3535516703&website=www.oicqzone.com"
+				target="_blank"
+				mdui-tooltip="{content: 'QQ'}"
+				style="color: rgb(49, 174, 255); background-color: rgba(49, 174, 255, .1);"
+			>
+				<i
+					class="kirafont
+					
+						icon-QQ
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://space.bilibili.com/3546658912602303"
+				target="_blank"
+				mdui-tooltip="{content: '哔哩哔哩'}"
+				style="color: rgb(231, 106, 141); background-color: rgba(231, 106, 141, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-bilibili
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://github.com/o0v0/"
+				target="_blank"
+				mdui-tooltip="{content: 'GitHub'}"
+				style="color: rgb(25, 23, 23); background-color: rgba(25, 23, 23, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-github
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://gitee.com/dong_gu"
+				target="_blank"
+				mdui-tooltip="{content: 'Gitee'}"
+				style="color: rgb(165, 15, 15); background-color: rgba(165, 15, 15, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-gitee
+					"
+				></i>
+			</a>
+		
+	</div>
+</div>
+
+		
+			
+  <div class="kira-widget-wrap">
+    <h3 class="kira-widget-title">分类</h3>
+    <div class="kira-widget">
+      <ul class="category-list">
+        
+        
+
+        
+          <li class="category-list-item">
+            <a class="category-list-link" href="/categories/Record/">
+              Record
+            </a>
+            <span class="category-list-count">4</span>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+		
+			
+	<div class="kira-widget-wrap">
+		<div id="randomtagcloud" class="kira-widget tagcloud kira-rainbow">
+			<a href="/tags/Hello-World/" style="font-size: 10px;">Hello World</a> <a href="/tags/%E4%B8%BB%E9%A2%98/" style="font-size: 10px;">主题</a> <a href="/tags/%E8%84%9A%E6%9C%AC/" style="font-size: 10px;">脚本</a> <a href="/tags/%E9%9D%A2%E6%9D%BF/" style="font-size: 10px;">面板</a>
+		</div>
+		
+	</div>
+
+
+		
+			
+	<div class="kira-widget-wrap">
+		<h3 class="kira-widget-title">
+			文章归档
+		</h3>
+		<div class="kira-widget">
+			<ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/">2024</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/">2022</a><span class="archive-list-count">1</span></li></ul>
+		</div>
+	</div>
+
+
+		
+	</aside>
+	<div class="kira-copyright">
+		&copy; 2024
+		<a href="/">时 - 雨</a>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> &
+		<a href="https://github.com/ch1ny/kira-hexo/" target="_blank">Kira-Hexo</a>
+		<br />
+		
+		
+	</div>
+</div>
+<div
+	class="kira-sidebar-modal"
+	id="sidebar-modal"
+	onclick="(function(self) {
+		self.classList.remove('show');
+		document.querySelector('.kira-sidebar.show#sidebar').classList.remove('show');
+	})(this)"
+></div>
+			<div class="kira-content">
+				<div id="kira-top-header"></div>
+				<div class="kira-main-content">
+					
+<link rel="stylesheet" href="/css/kira-image.css">
+
+
+<script src="/js/kira-image.js"></script>
+
+<div class="kira-image">
+    <div class="kira-image-modal">
+        <div class="kira-image-header">
+            <div class="kira-image-counter"></div>
+            <div class="kira-image-title"></div>
+            <div class="kira-image-operation">
+                <div class="kira-image-operation-button" id="kira-image-operation-button-zoom">
+                    <i class="kirafont icon-zoom-in"></i>
+                </div>
+                <div class="kira-image-operation-button" id="kira-image-operation-button-close">
+                    <i class="kirafont icon-close"></i>
+                </div>
+            </div>
+        </div>
+        <div class="kira-image-container">
+            <div class="kira-image-prev-button-panel">
+                <div class="kira-image-exchange-button">
+                    <i class="kirafont icon-left"></i>
+                </div>
+            </div>
+            <div class="kira-image-list">
+                <div class="kira-image-prev">
+                    <img />
+                </div>
+                <div class="kira-image-now">
+                    <img />
+                </div>
+                <div class="kira-image-next">
+                    <img />
+                </div>
+            </div>
+            <div class="kira-image-next-button-panel">
+                <div class="kira-image-exchange-button">
+                    <i class="kirafont icon-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+	
+<link rel="stylesheet" href="/css/kira-code-copy.css">
+
+	
+<script src="/js/kira-code-copy.js"></script>
+
+
+<div class="kira-post">
+	<article>
+		
+		<div class="kira-post-cover">
+			<img
+				data-src="https://pic2.ziyuan.wang/user/0w0/2024/07/Qiqi_2f99c4de8521b.png"
+				data-sizes="auto"
+				alt="2024年科学脚本汇总"
+				class="lazyload kira-post-cover-image disabled-kira-image"
+			/>
+			<h1>2024年科学脚本汇总</h1>
+		</div>
+		
+		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
+			<a><i class="kirafont icon-calendar-fill"></i>2024年07月05日</a>
+			<a><i class="kirafont icon-edit-fill"></i>709 字</a>
+			<a><i class="kirafont icon-time-circle-fill"></i>大概 3 分钟</a>
+		</div>
+		<p>2024年科学上网常用一键脚本汇总，搭建服务器最常用的脚本，总有一个是你需要的，Finalshell的进阶用法，快捷命令设置|如何导出快捷命令，轻松搭建Vps  </p>
+<hr>
+<p>准备工作：SSH连接工具Fianlshell【<a target="_blank" rel="noopener" href="https://www.hostbuf.com/t/988.html"><a target="_blank" rel="noopener" href="https://www.hostbuf.com/t/988.html">点击进入</a></a>】</p>
+<p>导出快捷命令，文件路径：\finalshell\config.json，直接把config.json文件替换到新的客户端即可</p>
+<hr>
+<p>1、Xray面板，项目地址：【<a target="_blank" rel="noopener" href="https://github.com/vaxilu/x-ui"><a target="_blank" rel="noopener" href="https://github.com/vaxilu/x-ui">点击进入</a></a>】</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">bash &lt;(curl -Ls https:<span class="hljs-comment">//raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)</span><br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>2、Reality Xray面板，项目地址：【<a target="_blank" rel="noopener" href="https://github.com/FranzKafkaYu/x-ui"><a target="_blank" rel="noopener" href="https://github.com/FranzKafkaYu/x-ui">点击进入</a></a>】</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">bash &lt;(curl -Ls https:<span class="hljs-comment">//raw.githubusercontent.com/slobys/x-ui/main/install.sh)</span><br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>3、伊朗版Xray面板，项目地址：【<a target="_blank" rel="noopener" href="https://github.com/MHSanaei/3x-ui"><a target="_blank" rel="noopener" href="https://github.com/MHSanaei/3x-ui">点击进入</a></a>】</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">bash &lt;(curl -Ls https:<span class="hljs-comment">//raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)</span><br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>4、BBR加速，项目地址：【<a target="_blank" rel="noopener" href="https://github.com/Chikage0o0/Linux-NetSpeed"><a target="_blank" rel="noopener" href="https://github.com/Chikage0o0/Linux-NetSpeed">点击进入</a></a>】</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">wget -N --no-check-certificate <span class="hljs-string">&quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot;</span> &amp;&amp; chmod +x tcp.sh &amp;&amp; ./tcp.sh<br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>5、一键安装依赖包</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs c++">Debian/Ubuntu系统：apt update -y&amp;&amp;apt install -y curl&amp;&amp;apt install -y socat<br>CentOS系统：yum update -y&amp;&amp;yum install -y curl&amp;&amp;yum install -y socat<br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>6、证书相关</p>
+<p>安装证书申请程序acme.sh</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">curl https:<span class="hljs-comment">//get.acme.sh | sh -s email=my@example.com</span><br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>申请证书</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">~/.acme.sh/acme.sh --issue -d 你的域名 --standalone <br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>安装证书</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">~/.acme.sh/acme.sh --installcert -d 你的域名 --key-file /root/<span class="hljs-keyword">private</span>.key --fullchain-file /root/cert.crt<br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>7、防火墙相关，更加详细的可看此文章：【<a target="_blank" rel="noopener" href="https://naiyous.com/450.html"><a target="_blank" rel="noopener" href="https://naiyous.com/450.html">点击进入</a></a>】</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs c++">放行端口：<br>firewall-cmd --zone=<span class="hljs-keyword">public</span> --add-port=端口号/tcp --permanent<br>iptables -A INPUT -p tcp --dport 端口号 -j ACCEPT<br>ufw allow 端口号<br>关闭防火墙：<br>systemctl stop firewalld.service<br>service iptables stop<br>ufw disable<br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>8、一键更改root用户密码</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs c++">echo root:naiyou@<span class="hljs-number">199</span> |sudo chpasswd root   #红色部分更为自己的密码<br>sudo sed -i <span class="hljs-string">&#x27;s/^#\?PermitRootLogin.*/PermitRootLogin yes/g&#x27;</span> /etc/ssh/sshd_config<br>sudo sed -i <span class="hljs-string">&#x27;s/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g&#x27;</span> /etc/ssh/sshd_config<br>sudo reboot<br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>9、一键安装Docker，此脚本包含了docker-compose</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs c++">curl -fsSL https:<span class="hljs-comment">//get.docker.com -o get-docker.sh</span><br>sh get-docker.sh<br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>10、宝塔面板aapanel（国际版）:【<a target="_blank" rel="noopener" href="https://www.aapanel.com/new/download.html"><a target="_blank" rel="noopener" href="https://www.aapanel.com/new/download.html">点击进入</a></a>】</p>
+<p>Debian系统一键安装脚本如下，更多系统版本可进入官网查看</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">wget -O install.sh http:<span class="hljs-comment">//www.aapanel.com/script/install-ubuntu_6.0_en.sh &amp;&amp; bash install.sh aapanel</span><br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>11、OpenVPN一键安装脚本</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">wget https:<span class="hljs-comment">//git.io/vpn -O openvpn-install.sh &amp;&amp; bash openvpn-install.sh</span><br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>12、一键安装Gost V3，项目地址：【<a target="_blank" rel="noopener" href="https://github.com/go-gost/gost"><a target="_blank" rel="noopener" href="https://github.com/go-gost/gost">点击进入</a></a>】</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">bash &lt;(curl -fsSL https:<span class="hljs-comment">//github.com/go-gost/gost/raw/master/install.sh) --install</span><br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>13、一键安装Hysteria2</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">wget -N --no-check-certificate https:<span class="hljs-comment">//raw.githubusercontent.com/flame1ce/hysteria2-install/main/hysteria2-install-main/hy2/hysteria.sh &amp;&amp; bash hysteria.sh</span><br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>14、极光面板一键安装脚本，项目地址：【<a target="_blank" rel="noopener" href="https://github.com/Aurora-Admin-Panel/deploy"><a target="_blank" rel="noopener" href="https://github.com/Aurora-Admin-Panel/deploy">点击进入</a></a>】</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">bash &lt;(curl -fsSL https:<span class="hljs-comment">//raw.githubusercontent.com/Aurora-Admin-Panel/deploy/main/install.sh)</span><br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>15、ServerStatus服务器管理面板一键脚本：【<a target="_blank" rel="noopener" href="https://naiyous.com/600.html"><a target="_blank" rel="noopener" href="https://naiyous.com/600.html">点击进入</a></a>】</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">wget https:<span class="hljs-comment">//raw.githubusercontent.com/cokemine/ServerStatus-Hotaru/master/status.sh</span><br></code></pre></td></tr></table></figure>
+
+
+
+
+<p>16、Trojan Panel一键安装脚本，项目地址：【<a target="_blank" rel="noopener" href="https://github.com/trojanpanel/install-script"><a target="_blank" rel="noopener" href="https://github.com/trojanpanel/install-script">点击进入</a></a>】</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs c++">source &lt;(curl -L https:<span class="hljs-comment">//github.com/trojanpanel/install-script/raw/main/install_script.sh)</span><br></code></pre></td></tr></table></figure>
+
+<hr>
+<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://t.mwm.moe/pc" alt="次元API" class="lazyload"></p>
+
+	</article>
+
+	 
+    <div class="kira-post-copyright">
+        <strong>本文作者：</strong>时 - 雨<br>
+        <strong>本文链接：</strong><a href="https://kira.0w0.ren/2024/07/05/Record/2024%E5%B9%B4%E7%A7%91%E5%AD%A6%E8%84%9A%E6%9C%AC%E6%B1%87%E6%80%BB/" title="https:&#x2F;&#x2F;kira.0w0.ren&#x2F;2024&#x2F;07&#x2F;05&#x2F;Record&#x2F;2024年科学脚本汇总&#x2F;" target="_blank" rel="noopener">https:&#x2F;&#x2F;kira.0w0.ren&#x2F;2024&#x2F;07&#x2F;05&#x2F;Record&#x2F;2024年科学脚本汇总&#x2F;</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
+    </div>
+
+  
+	<div class="kira-post-nav">
+		<nav class="post-nav">
+			  
+			<!-- 先找到与当前文字相同的目录 -->
+			            
+			<!-- 在找到当前文章所在的 index -->
+			            
+			<!-- 上一篇文章 -->
+			<div class="old">
+				<span>上一章</span>
+				<a href="/2024/07/04/Record/%E6%94%AF%E6%8C%81%E5%A4%9A%E5%8D%8F%E8%AE%AE%E5%A4%9A%E7%94%A8%E6%88%B7%E7%9A%84%20xray%20%E9%9D%A2%E6%9D%BF/"> 支持多协议多用户的 xray 面板</a>
+			</div>
+			          
+		</nav>
+	</div>
+	
+	<div class="kira-post-meta kira-rainbow">
+		
+			<a class="kirafont icon-container-fill -link" href="/categories/Record/">Record</a>
+		
+		
+			<a class="kirafont icon-tag-fill -none-link" href="/tags/%E8%84%9A%E6%9C%AC/" rel="tag">脚本</a>
+		
+	</div>
+	
+	<div class="kira-post-footer">
+		
+	<link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css" />
+	<div id="gitalk"></div>
+	<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+	<script type="text/javascript">
+		const gitalk = new Gitalk({
+			clientID: 'Ov23liUwwAwf3I4LGpAC',
+			clientSecret: '11d69469abcf6c5b970e298f7b7dee6e6f187939',
+			id: '2024年科学脚本汇总',
+			repo: 'comment',
+			owner: 'o0v0',
+			admin: 'o0v0',
+			title: '时 - 雨',
+		});
+		gitalk.render('gitalk');
+	</script>
+
+
+		
+	</div>
+	
+</div>
+
+				</div>
+			</div>
+			<div class="kira-right-column">
+	<a onclick="document.querySelector('#kira-top-header').scrollIntoView({behavior: 'smooth'});" class="kira-backtotop" aria-label="回到顶部" title="回到顶部">
+		<button class="mdui-fab mdui-ripple">
+			<i class="kirafont icon-caret-up"></i>
+		</button>
+	</a>
+</div>
+
+		</div>
+	</body>
+</html>
